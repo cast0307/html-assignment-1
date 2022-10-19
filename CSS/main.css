@@ -1,19 +1,21 @@
 body {
     background-color: palegoldenrod; 
     font-size: 18px;
-    
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-h1 {
+header , footer {
+
     background-color: darkblue;
-    color: black;
 }
+
+
 
 /* MAIN HEADING OF THE WEBSITE */
  .site-title {
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: lightblue;
-    color: black;
+    
+    
+    color: white;
     margin-right: 1650px; 
     overflow: visible;
     text-align: center;
@@ -59,7 +61,7 @@ h3 {
 }
 .hobbies {
     list-style: square;
-    background: scroll;
+
 
 }
 
@@ -85,9 +87,17 @@ article {
 
 /* COPYRIGHT STYLE */
 .footer {
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+
+
+
+
+
+
+
+
+    
     font-size: large;
-    background-color: darkblue;
     color: #ddd;
     margin-right: 1650px; 
     overflow: visible;
@@ -103,7 +113,7 @@ main #para1 {
 
 /* NAVIGATION STYLE */
 .topnav {
-    background-color: gray;
+    
     overflow: hidden;
     align-content: center;
     text-align: center;
@@ -120,10 +130,12 @@ main #para1 {
     font-size: 17px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     border: 1px solid black;
+    background-color: grey;
+
 }
 
 .topnav a:hover {
-    background-color: #ddd;
-    color: black;
+    background-color: red;
+    color: white;
 }
 
